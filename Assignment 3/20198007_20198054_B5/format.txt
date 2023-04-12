@@ -1,0 +1,16 @@
+var_name [IN or OUT] [low, high]
+#repeat this format however necessary
+#this adds variable names
+end_variables #delim
+var_name
+set name [TRI or TRAP] point0 point1 point2 point3 # point3 if trap
+#repeat this format however necessary
+end_var_set #delim
+end_all_sets # delim
+IN_Variable_1 Set_name operator IN_Variable_2 Set_name => Out_Var set_name
+#repeat however necessary
+end_rules #delim
+Input_Var Crisp Value
+#repeat however necessary
+end_crisp #delim
+
